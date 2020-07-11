@@ -1,0 +1,74 @@
+ /* Jumbotron */
+ .jumbotron{
+    background: url("../decimanBiblotekBilder/jumpotronImgDechiman.jpg") no-repeat center center; 
+    background-size:cover;
+    height: 510px;
+} 
+    
+#rammeJumbotronTekst{
+    margin:3.5% 0% 0% 0%;
+    background-color: #0eb1ac; 
+    border-radius: 15px;
+    padding: 4px 4px 4px 18px;
+    color:white;
+    width:32%;
+}
+    
+#jumbotronViktigTekst{
+    font-size: 28px;
+}
+
+#jumbotronBrodtekst{
+  font-size: 17px;
+  letter-spacing: 0.7px;
+}
+
+#jumbotronLesmer{
+    text-decoration: underline;
+    text-decoration-color: white;
+    font-weight: bolder;
+}
+    
+#jumbotronLesmer:hover{
+    text-decoration: underline;
+    color:black;
+    text-decoration-color: black;
+    font-weight: bold;
+}
+    
+#jumpotronResponsiv{
+    display: none;
+    margin: -11% 0% 0% 0%;
+    width: 100%;
+    color:white;
+}
+    
+@media (max-width: 890px) {     
+    #jumbotronViktigTekst{
+        font-size: 23px;
+    }
+
+    #jumbotronBrodtekst{
+      font-size: 14px;
+    }
+}
+    
+@media (max-width: 690px) {     
+    #jumbotronViktigTekst{
+        font-size: 23px;
+    }
+
+    #jumbotronBrodtekst{
+      font-size: 14px;
+    }
+    
+    #rammeJumbotronTekst{
+        display:none;   
+    }
+    
+    #jumpotronResponsiv{
+        background-color:#0eb1ac;
+        display: block;
+        padding:5% 0% 5% 0%; ;
+    }
+}

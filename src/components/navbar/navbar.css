@@ -1,0 +1,381 @@
+ /* Globalenavigasjonsmeny */
+nav{
+    margin:0px !important;
+}
+
+ .navbar-brand{
+  font-weight: 400;
+  font-size: 29px;
+  margin: 0% 5% 0% 7%; 
+  color: rgb(52,58,64);
+  font-family: serif;
+}
+
+.navbar-brand:hover{
+    color: #10c9c3 !important;
+  }
+   
+.navbar {
+  padding: 0px;
+  position: fixed !important;
+  width:100%;
+  z-index: 3;
+}
+
+.navbar-nav li a {
+  line-height: 60px;
+} 
+
+#iLinjeNavbar{
+   display: inline-block; 
+   list-style-type: none;
+}
+
+#navbarLinkene{
+   cursor:pointer;
+   font-size: 15px;
+   padding-left: 10px;
+   padding-right: 10px;
+   white-space:nowrap; 
+   font-weight: bold;
+   color: rgb(52,58,64);
+   letter-spacing: 0.7px;
+}
+   
+.navbar-nav > li:hover { 
+   background-color: #10c9c3;
+   color: white !important;
+}
+
+.navbar-nav > li > .dropdown-menu { 
+   background-color: #F8F8F8;
+   color: white !important;
+}
+
+.navbar-nav > li > .dropdown-menu a{   
+   color: rgb(52,58,64);
+   font-size: 14px;
+   font-weight: bold;
+}
+
+.navbar-nav > li > .dropdown-menu a:hover{   
+   color: white !important;
+   background-color: #10c9c3;
+   display:block;
+}
+   
+#navbarrammenRundtKnappene{
+   margin-right: 70px;    
+}
+   
+#knapperINavbar1BliLaner{
+   cursor:pointer;
+   color: white;
+   font-weight: bold;
+   white-space:nowrap;
+   margin-top: 10px;
+   letter-spacing: 0.7px;
+   border-radius:15px;
+   padding: 0px 3px 0px 3px;
+   background-color: orange;
+}
+
+#knapperINavbar1BliLaner:hover{
+   background-color: darkorange;
+}
+
+#knapperINavbar2LoggInn{
+   cursor:pointer;
+   background-color: ghostwhite;
+   color: rgb(52,58,64);
+   white-space:nowrap;
+   font-weight: bold;
+}
+   
+#knapperINavbar3Sok{
+   cursor:pointer;
+   font-weight: bold;
+   background-color: ghostwhite;
+   color: rgb(52,58,64);
+   white-space:nowrap;
+}
+
+#knapperINavbar2LoggInn:hover{
+   background-color:#10c9c3;
+   color: ghostwhite;
+}
+   
+#knapperINavbar3Sok:hover{
+   background-color: rgb(52,58,64);
+   color: ghostwhite;
+}
+   
+.fa-user{
+   margin-right: 7.5% !important;
+   cursor:pointer;
+   font-size: 22px;
+}
+
+.fa-search{
+   margin-right: 7.5% !important;
+   cursor:pointer;
+   font-size: 22px;
+}
+
+#navbarKnappene{
+   background-color:ghostwhite !important;
+}
+   
+#responsiveKnapperBliLaner{
+   background-color:orange;
+   display: none;
+}
+   
+#responsiveKnapperLogginn{
+   display: none;
+}
+   
+.dropdown:hover .dropdown-menu {
+   display: block;
+   margin-top: 0px;
+}
+
+#nav-icon3 {
+ width: 30px;
+ height: 25px;
+ position: relative;
+ margin: 5px auto;
+ -webkit-transform: rotate(0deg);
+ -moz-transform: rotate(0deg);
+ -o-transform: rotate(0deg);
+ transform: rotate(0deg);
+ -webkit-transition: .25s ease-in-out;
+ -moz-transition: .25s ease-in-out;
+ -o-transition: .25s ease-in-out;
+ transition: .25s ease-in-out;
+ cursor: pointer;
+}
+
+#nav-icon3 span {
+ display: block;
+ position: absolute;
+ height: 3.5px;
+ width: 100%;
+ background: grey !important;
+ border-radius: 5px;
+ left: 0;
+ -webkit-transform: rotate(0deg);
+ -moz-transform: rotate(0deg);
+ -o-transform: rotate(0deg);
+ transform: rotate(0deg);
+ -webkit-transition: .25s ease-in-out;
+ -moz-transition: .25s ease-in-out;
+ -o-transition: .25s ease-in-out;
+ transition: .25s ease-in-out;
+}
+
+#nav-icon3 span:nth-child(1) {
+ top: 0px;
+}
+
+#nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
+ top: 10px;
+}
+
+#nav-icon3 span:nth-child(4) {
+ top: 21px;
+}
+
+#nav-icon3.open span:nth-child(1) {
+ top: 5px;
+ width: 0%;
+ left: 50%;
+}
+
+#nav-icon3.open span:nth-child(2) {
+ -webkit-transform: rotate(45deg);
+ -moz-transform: rotate(45deg);
+ -o-transform: rotate(45deg);
+ transform: rotate(45deg);
+}
+
+#nav-icon3.open span:nth-child(3) {
+ -webkit-transform: rotate(-45deg);
+ -moz-transform: rotate(-45deg);
+ -o-transform: rotate(-45deg);
+ transform: rotate(-45deg);
+}
+
+#nav-icon3.open span:nth-child(4) {
+ top: 18px;
+ width: 0%;
+ left: 50%;
+}
+
+.navbar-toggler{
+ color: black !important;
+ border: 1px solid !important;
+ margin: 10px;
+}
+
+.navbar-toggler-icon{
+ color: black !important; 
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+   color: black !important;
+}
+   
+@media (max-width: 1320px) {
+  .navbar-brand{
+      margin: 0% 2.5% 0% 3.5%; 
+   }    
+   
+   #navbarLinkene{
+       font-size: 14px;
+       padding-left: 6px;
+       padding-right: 6px;
+   }
+}
+   
+@media (max-width: 1100px) {
+  .navbar-brand{
+      margin: 0% 1.5% 0% 2.5%; 
+   }    
+   
+   #navbarLinkene{
+       font-size: 13px;
+       padding-left: 4.5px;
+       padding-right: 4.5px;
+   }
+   
+   #navbarrammenRundtKnappene{
+       margin-right: 50px;    
+   }
+}
+   
+@media (max-width: 990px) {
+  .navbar-brand{
+      margin: 0% 1.5% 0% 4.5%; 
+      font-size: 22px
+   }    
+   
+   #navbarLinkene{
+       font-size: 16px;
+       padding-left: 48.5px;
+       padding-right: 8.5px;
+   }
+   
+   #navbarrammenRundtKnappene{
+       margin-right: 50px;    
+   }
+   
+   .navbar-toggler{
+       margin-left: -65%;
+       margin-right: 40%;
+   }
+   
+   #navbarKnappene{
+       background-color:ghostwhite !important;
+       margin: 0% 4% 0% 4%;
+   }  
+   
+   #knapperINavbar1BliLaner{
+       margin: 3px 0px 0px 1px;
+       padding: 0px 3px 0px 3px;
+   }
+
+   #knapperINavbar2LoggInn{
+       margin: 3px 0px 0px 1px;
+       padding: 0px 7px 0px 7px;
+   }
+   
+   #knapperINavbar3Sok{
+       margin: 3px 0px 0px 1px;
+       padding: 0px 7px 0px 7px;
+   }
+}
+   
+@media (max-width: 890px) {
+   #navbarrammenRundtKnappene{
+       margin-left: -20px;    
+   }
+   
+   .navbar-toggler{
+       margin-left: -35%;
+       margin-right: 20%;
+   }
+   
+   #navbarKnappene{
+       margin: 0% 4% 0% 4%;
+   } 
+   
+   #navbarrammenRundtKnappene{
+       margin-left: 1px;    
+   }
+}
+   
+@media (max-width: 690px) {
+   #navbarrammenRundtKnappene{
+       margin-left: -20px;    
+   }
+   
+   .navbar-toggler{
+       margin-left: -15%;
+       margin-right: 10%;
+   }
+   
+   #navbarKnappene{
+       margin: 0% 4% 0% 4%;
+   } 
+   
+   #navbarrammenRundtKnappene{
+       margin-left: 1px;    
+   }
+}
+
+@media (max-width: 590px) {
+    .navbar-brand{
+       margin: 0% 1.5% 0% 4.5%; 
+    } 
+    
+    #navbarrammenRundtKnappene{
+        margin-left: 70px;    
+    }
+    
+    .navbar-toggler{
+        margin-left: -1%;
+        margin-right: 20%;
+    }
+    
+    #navbarKnappene{
+        margin: 0% 1.5% 0% 1.5%;
+    } 
+    
+    #navbarrammenRundtKnappene{
+        margin-left: 0.2px;    
+    }
+    
+    #navbarLinkene{
+        font-size: 13px;
+    }
+    
+    #knapperINavbar1BliLaner{
+        display: none;
+    }
+
+    #knapperINavbar2LoggInn{
+        display: none;
+    }
+    #responsiveKnapperBliLaner{
+        display: block !important;
+    }
+    
+    #responsiveKnapperLogginn{
+        display: block !important;
+    }
+
+    #knapperINavbar3Sok{
+        font-size: 12px;
+    }
+}

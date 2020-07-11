@@ -1,0 +1,123 @@
+#rammeAnbefalinger{
+    margin: 0px 15px 0px 15px;    
+}    
+    
+#anbefalingOverskrift{
+    white-space:nowrap;
+    margin: 15px 0px 25px 0px;
+}
+    
+.nav-tabs .nav-link{
+  color:#0eb1ac;
+  font-size:26px;
+}
+
+/* Tabs lenkene under hover tilstand */
+.nav-tabs .nav-link:hover{
+  background-color: #0eb1ac !important;
+  color:white !important;
+}
+    
+#rammeAnbefalingerTabs{
+  background-color:#F8F8F8;
+  padding-bottom: 30px !important;  
+  height: 39%;
+  margin: 17px 0px 10px 0px !important;
+  color:#0eb1ac;
+}
+    
+#anbefalingerTabsHovedRamme{
+  height:350px;
+  width: 100%;
+  margin: 15px 2px 8px 2px !important;
+  background-color:#F0F0F0;
+  border-radius: 7px;
+  border: 1px solid grey;
+  margin: 0px 5px 0px 5px;
+  vertical-align: top;
+  text-align: center;
+  padding: 13px;
+}
+
+#anbefalingerBilder{
+  width: 65%;
+  height: 55%;
+}
+    
+ #anbefalingerStjerner{
+  width: 60%;
+  height: 10%;
+} 
+    
+#innholdsProdusent{
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+    
+#innholdsProdusent:hover{
+  cursor: pointer; 
+  color:black;
+  text-decoration: #0eb1ac;
+  text-decoration-color: #0eb1ac;
+}
+    
+#lanMedium{
+  cursor: pointer;
+  margin: 0px 0px 5px 9px;
+  color: white;
+  background-color: orange;
+  border-radius: 7px;
+  padding:0px 9px 0px 9px;
+  white-space:nowrap;
+  position: absolute;
+  bottom:0;
+  left:0;
+}
+    
+#lanMedium:hover{
+  background-color: darkorange;
+}
+    
+#lesMer{
+  cursor: pointer;
+  margin: 0px 9px 5px 0px;
+  color: white;
+  background-color: #0eb1ac;
+  border-radius: 7px;
+  padding:0px 9px 0px 9px;
+  white-space:nowrap;
+  text-decoration: underline;
+  text-decoration-color: white;
+  position: absolute;
+  bottom:0;
+  right:0;
+}
+    
+#lesMer:hover{
+  background-color: #0c9f9a;
+}
+
+@media (max-width: 1131px) {
+  #lanMedium{
+    padding:0px 2px 0px 2px;
+  }
+      
+  #lesMer{
+    padding:0px 2px 0px 2px;
+  }
+}
+
+@media (max-width: 990px) {
+  #anbefalingerStjerner{
+    width: 50%;
+    height: 10%;
+  } 
+
+  #lanMedium{
+    padding:0px 9px 0px 9px;
+  }
+      
+  #lesMer{
+    padding:0px 9px 0px 9px;
+  }
+}

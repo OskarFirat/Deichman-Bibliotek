@@ -1,0 +1,144 @@
+ /* Hva skjer? Kommende arrangment */
+ #hvaSkjerOverskrift{
+    white-space:nowrap;
+    margin: 30% 0px 25px 0px;
+}
+    
+#hvaSkjerHovedRamme{
+  margin: 0px 5px 0px 5px;
+  vertical-align: top;
+  text-align: left;
+} 
+    
+#hvaSkjerBilderHoved{
+  border-radius: 7px;
+  border: 1px solid grey;
+  width: 450px;
+  height: 270px;
+  overflow: hidden;
+  opacity: 0.9;
+}
+
+#hvaSkjerBilderHoved > img {  
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: all .4s ease-in-out;
+}
+
+#hvaSkjerBilderHoved:hover > img {
+  transform: scale(1.3);
+}
+
+#hvaSkjerBilderHoved:hover{
+  opacity: 1 !important;
+}
+    
+#hvaSkjerHovedOverskrift{
+    margin:10px 0px 10px 5px;
+    color: black;
+    font-size: 22px;
+}
+    
+#hvaSkjerMotteplass{
+    margin:0px 0px 5px 5px;
+}
+    
+#hvaSkjerSted{
+    margin:0px 0px 5px 5px;
+    text-decoration: underline;
+    text-decoration-color: grey;
+    color: grey;
+}
+
+#hvaSkjerSted:hover{
+  cursor: pointer; 
+  color:#0eb1ac;
+  text-decoration: #0eb1ac;
+  text-decoration-color: #0eb1ac;
+}
+
+#hvaSkjerHovedDato{
+    margin:0px 0px 0px 5px;
+    white-space:nowrap;
+}
+    
+#hvaSkjerDato{
+    margin:0px 0px 5px 0px;
+    text-decoration: underline;
+    text-decoration-color: grey;
+    color: grey;
+}
+    
+#hvaSkjerDato:hover{
+  cursor: pointer; 
+  color:#0eb1ac;
+  text-decoration: #0eb1ac;
+  text-decoration-color: #0eb1ac;
+}
+
+#hvaSkjerTid{
+   color: black;
+   margin:5px 0px 45px 5px;
+   white-space:nowrap;
+}
+    
+#hvaSkjerDelRamme{
+  margin: 0px 2px 0px 2px;
+  vertical-align: top;
+  text-align: left;
+} 
+    
+#hvaSkjerBilderDel{
+  border-radius: 7px;
+  border: 1px solid grey;
+  width: 230px;
+  height: 270px;
+  overflow: hidden;
+  opacity: 0.9;
+}
+
+#hvaSkjerBilderDel > img {  
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: all .4s ease-in-out;
+}
+
+#hvaSkjerBilderDel:hover > img {
+  transform: scale(1.3);
+}
+
+#hvaSkjerBilderDel:hover{
+  opacity: 1 !important;
+}
+    
+#hvaSkjerKL{
+    color:grey;
+}
+
+@media (max-width: 984px) {  
+    
+    #hvaSkjerBilderHoved{
+      width: 650px;
+    }
+}
+    
+@media (max-width: 764px) {  
+
+    #hvaSkjerBilderHoved, #hvaSkjerBilderDel{
+      width: 450px;
+    }
+}
+    
+@media (max-width: 500px) {  
+    
+    #hvaSkjerBilderHoved, #hvaSkjerBilderDel{
+      width: 230px;
+    }
+    
+    #hvaSkjerOverskrift{
+        margin-left:20px;
+        font-size: 20px;
+    }
+}

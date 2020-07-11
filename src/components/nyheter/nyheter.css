@@ -1,0 +1,59 @@
+ /* Nyheter */
+ #rammeHovedNyheter{
+    background-color: #0c9f9a; 
+    margin: 8% 0% 0% 0%;
+ }
+ 
+ #nyehterOverskrift{
+     margin: 8% 0% 6% 4%;
+     color:white;
+     font-weight: bold;
+ }
+     
+ #nyheterHovedNyhet{
+     background-color: white;
+     padding: 0%;
+     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+     margin: 3% 0% 4% 0%;
+     word-wrap:break-word;
+     height: 100%;
+ }
+     
+ #nyhetHovedBilde, #nyhetDelBilde{
+     width: 100%;
+ }
+
+ #nyheterDelNyhet{
+     margin: 3% 0% 4% 0%;
+     background-color: white;
+     padding:0%;
+     box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ #nyheterDelNyhet{
+    margin: 3% 0% 4% 0%;
+    background-color: white;
+    padding:0%;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+     
+ #lesMerNyheter{
+   cursor: pointer;
+   margin: 9px 0px 2px 3px;
+   color: black;
+   font-weight:bold;
+   white-space:nowrap;
+   text-decoration: underline;
+   text-decoration-color: black;
+ }
+     
+ #lesMerNyheter:hover{
+   color: #0c9f9a;
+   text-decoration-color: #0c9f9a;
+ }      
+
+ @media (max-width: 500px) {     
+    #nyhetHovedBilde{
+        height:200px;
+    }
+}
